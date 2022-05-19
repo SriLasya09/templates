@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0px;
+  }
+  body {
+    overflow-x: hidden;
+   
+}
+.bg{
+    background: linear-gradient(#1a1a1a, #474646, #1a1a1a);
+    width: 100%;
+    height: 3000px;
+}
+.bg > p:first-child{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.bg > p:last-child{
+       font-family: 'Josefin Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+color:black;
+font-size: 60px;
+    font-weight: 800;
+    background: white;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    width: 550px;
+    height: 200px;
+    padding: 30px;
+
+}
