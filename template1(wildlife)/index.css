@@ -1,36 +1,239 @@
-*{
-    margin: 0;
-    padding: 0px;
-  }
-  body {
-    overflow-x: hidden;
-   
+* {
+  margin: 0;
+  padding: 0px;
+  
 }
-.bg{
-    background: linear-gradient(#1a1a1a, #474646, #1a1a1a);
-    width: 100%;
-    height: 3000px;
+body {
+  overflow-x: hidden;
+  
 }
-.bg > p:first-child{
-    color: white;
-    font-size: 30px;
-    font-weight: 700;
-    font-family: 'Josefin Sans', sans-serif;
-    padding-top: 30px;
-    padding-left: 100px;
+.bg {
+  background:linear-gradient(#1a1a1a, #1a1919, black);
+  width: 100%;
+  height: 3500px;
 }
-.bg > p:last-child{
-       font-family: 'Josefin Sans', sans-serif;
-font-family: 'Playfair Display', serif;
-color:black;
-font-size: 60px;
-    font-weight: 800;
-    background: white;
-    position: absolute;
-    top: 100px;
-    left: 600px;
-    width: 550px;
-    height: 200px;
-    padding: 30px;
+.bg > p:first-child {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 30px;
+  padding-left: 100px;
+}
+.bg > p:first-child:hover{
+    color: #ffcc00;
+}
 
+.bg2 {
+  background: #ffcc00;
+  height: 1100px;
+  width: 400px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+.bg > p:last-child {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  color: black;
+  font-size: 60px;
+  font-weight: 800;
+  background: white;
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  width: 550px;
+  height: 170px;
+  padding: 30px;
+}
+.bg3 {
+  background: white;
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  right: 150px;
+  top: 550px;
+}
+.text {
+  position: absolute;
+  top: 900px;
+  background: black;
+  height: 350px;
+  width: 450px;
+  left: 250px;
+}
+.text p {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  padding-left: 50px;
+  padding-top: 100px;
+  width: 350px;
+  justify-content: center;
+}
+.fa-arrow-right-long {
+  font-size: 70px;
+}
+.text1 {
+  position: absolute;
+  top: 1400px;
+  color: #ffcc00;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 130px;
+  font-weight: 900;
+  left: 250px;
+}
+.heading2 {
+  background: black;
+  position: absolute;
+  height: 700px;
+  width: 500px;
+  top: 1300px;
+  right: 100px;
+}
+.heading2 > p:first-child {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  padding-top: 15px;
+  text-align: center;
+}
+.heading2 > p:last-child {
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+  padding-top: 90px;
+  width: 300px;
+  text-align: left;
+  padding-left: 90px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.text2 {
+  background: #ffcc00;
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  top: 1900px;
+  left: 600px;
+}
+.text2 > p:first-child {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 15px;
+  text-align: center;
+}
+.text2 > p:last-child {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  padding-top: 40px;
+  width: 400px;
+  text-align: left;
+  padding-left: 50px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.images{
+    position: absolute;
+    top: 2370px;
+    left: 100px;
+}
+.images ul li{
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    text-decoration: none;
+
+}
+.images ul li img{
+    height: 250px;
+    width: 250px;
+}
+.text3 > p:first-child{
+    position: absolute;
+  top: 2700px;
+  color: #ffcc00;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 130px;
+  font-weight: 900;
+  right: 250px;
+
+}
+.text3 > p:last-child{
+     font-family: "Josefin Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  color: white;
+  position: absolute;
+  top: 2950px;
+  right: 150px;
+  font-weight: 700;
+  font-size: 60px;
+  width: 500px;
+}
+.butt{
+    position: absolute;
+    top: 3200px;
+    left: 700px;
+    height: 50px;
+    background: none;
+    width: 200px;
+    color: white;
+    text-decoration: none;
+    border-color: white;
+    border-width: 3px;
+}
+.butt:hover{
+    background:#ffcc00;
+}
+.media{
+    position: absolute;
+    top: 3430px ;
+    right: 50px;
+}
+.media ul li{
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.fa-instagram{
+color: white;
+font-size: 30px;
+}
+.fa-instagram:hover{
+    color: #ffcc00;
+}
+.fa-facebook-f{
+color: white;
+font-size: 30px;
+}
+.fa-facebook-f:hover{
+color: #ffcc00;
+}
+.fa-twitter{
+color: white;
+font-size: 30px;
+}
+.fa-twitter:hover{
+color: #ffcc00;
+}
+.fa-linkedin-in{
+color: white;
+font-size: 30px;
+}
+.fa-linkedin-in:hover{
+color: #ffcc00;
+}
+footer{
+    position: absolute;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    top: 3450px;
+    font-size: 25px;
+    left: 20px;
 }
